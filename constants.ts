@@ -1,6 +1,6 @@
 // There's three ways to define a constant in JS. Write them down below and explain the differences
 
-var perrito;                    //It can be update ande re-declarate in the scope. 
+var perrito;                    //It can be update and re-declarate in the scope. 
 //Also it has a functional scope.
 
 let perrita;                    //It can be update but no re-declarate in the scope.
