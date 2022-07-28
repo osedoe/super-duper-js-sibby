@@ -30,3 +30,13 @@
 - What is the `typeof` operator?
 
 - What is the difference between `session`, `local storage` and `session storage`?[IMPORTANT]
+
+- What are different ways to put a string value in JS? When would you use each?
+
+- There's various types of operators in JS. Name them and write down the different options for each group
+
+- What are bitwise operators?
+
+- What's the difference between `==` and `===`?
+
+- How would you generate a random Integer number?
