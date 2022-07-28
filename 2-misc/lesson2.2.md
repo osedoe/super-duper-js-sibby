@@ -49,12 +49,12 @@ https://www.markdownguide.org/basic-syntax/#code
 
 - Name and explain the different operators in JS
 
-    - Arithmetic operators: `+`, `-`, `*`, ``/``, ``%``, ``++``, `--`. For mathematical operations.
-    - String concatenation: ``+``.
-    - Comparison operators: ``==``, ``===``, ``!=``, `>`, ``<``, ``>=``, ``<==``.
-    - Logical operators: ``&&``, ``||``, ``!``. To combine 2 or more conditions.
-    - Assignment operators: `=`. ``+=``. ``-=``, ``*=``, ``/=``, ``%=``.
-    - Ternary operator: 
+    - Arithmetic operators: for mathematical operations.
+    - String concatenation: to join strings
+    - Comparison operators: to compare two JS objects and filter them.
+    - Logical operators: To combine 2 or more conditions.
+    - Assignment operators: To ass
+    - Ternary operator: To write one line code conditionals
         ```javascript
         <condition> ? <value1> : <value2>;
         ```
