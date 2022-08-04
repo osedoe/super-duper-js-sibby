@@ -17,6 +17,5 @@ const { id: user2Id = 'No ID', nick: user2Nick, level: user2Level = 0 } = user2;
 console.log(`USER: ${user1Nick}`, ` - id: ${user1Id}`, ` - level: ${user1Level}`);
 console.log(`USER: ${user2Nick}`, ` - id: ${user2Id}`, ` - level: ${user2Level}`);
 
-// const { id2, nick2, level2 } = user2;
-// console.log(`USER: ${nick}`, ` - id: ${id}`, ` - level: ${level}`);
+
 
