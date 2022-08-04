@@ -1,8 +1,49 @@
 # Objects
 
 - What are the different ways of creating an object in JS? (four types)
+    1. ``Objects Literals / Initializer:`` separate the each  `` name: value ``  with comma`.
+    ```javascript
+    const house = {
+        electricity: true,
+        rooms: 4,
+        rent: 500
+    }
+    ```
+    2. ``New Operator / Contructor:`` To call a function which act as a Constructor and return an object.
+    ```javascript
+    function House(electricity, rooms, rent){
+        this.electricity = electricity;
+        this.rooms = rooms;
+        this.rent = rent;
+    }
+    const myHouse = new House(true, 2, 300);
+    ```
+    3. ``Object.create Method:`` Use ``Object.create()`` method to specify the protype objects. The new object will have the same values in the keys.
+    ```javascript
+    const house = {
+        electricity: true,
+        rooms: 4,
+        rent: 500
+    }
+    const myOldHouse = Object.create(house);
+    ```
+    4. ``Class``: To createa class (instead a function) which act as a Constructor and return an object.
+    ```javascript
+    class House {
+        constructor(electricity, rooms, rent) {
+            this.electricity = electricity;
+            this.rooms = rooms;
+            this.rent = rent;    
+        }
+    }
+    ```
+
 - What's the preffered way to create an object?
+    With Objects Literals / Initializer.
+
 - What are the different ways to access an object property?
+
+
 - In JavaScript everything is a object. Knowing this, how would you check that an object is an array?
 - How do you destructure an object?
 - How would you clone an object?

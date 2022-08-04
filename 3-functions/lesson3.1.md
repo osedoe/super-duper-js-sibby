@@ -44,12 +44,12 @@
 
     When wouldn't use arrow functions to:
     - make objects methods
-    - callk function
+    - call function
 
 - What's the difference between arguments and parameters in a function?
 
     Parameters are the varaibles which are defined when a function is declared;
-    Arguments are the values of the variables with a function when the function is invoke.
+    Arguments are the values of the variables within a function when the function is invoke.
 
 
 - Are Java and JavaScript related? What do they have in common?
