@@ -43,11 +43,52 @@
 
 - What are the different ways to access an object property?
 
+    With dots and with brackets:
+    ```javascript
+        const electricityAvaliable = house.electricity;     //true
+        const rentPricePounds = house['rent'];              //500
+    ```
 
 - In JavaScript everything is a object. Knowing this, how would you check that an object is an array?
+
+    With the array method ``.isArray(...)``
+    ```javascript
+    const colors = ['red', 'blue'];
+    const result = Array.isArray(colors);
+    console.log(result);
+    ```
 - How do you destructure an object?
+
+    ```javascript
+      const user = {
+        id: 00,
+        nick: 'RawDev',
+        level: undefined
+    };
+
+    const { id , nick, level = 0} = user;
+    ```
 - How would you clone an object?
+    1. With ``spread operators``:
+    ```javascript
+    const country = {
+        name: 'Spain',
+        poblation: 5000000,
+    } 
+    const newSpain = {...country};
+    ```
+    2. With ``Object.assign``:
+    ```javascript
+    const Spain = Object.assign({}, country);
+    ```
+    The ``{}`` is usedto not mutate the original object
+
 - What's the difference between an immutable and mutable object? How would you create an immutable object?
+    - A mutable object is an object whose state can be modified after it's created.
+    - A inmmutable is the obj whose state cannot be modified.
+
+
+
 - What does `Object.seal()` and `Object.freeze()` do? What are the differences?
 - What is the `ES6 Map`? What's the difference between this and a normal object?
 - What is a shallow copy and a deep copy in JS? Write a function called `deepClone` that does a deepCopy in JS. And write some tests to check that it works.
